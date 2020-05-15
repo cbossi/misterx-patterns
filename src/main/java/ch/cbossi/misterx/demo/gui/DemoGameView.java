@@ -8,8 +8,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -72,13 +70,7 @@ public class DemoGameView implements ActionListener {
   }
 
   private ImageIcon loadMapIcon() {
-    ImageIcon mapIcon = new ImageIcon();
-    try {
-      mapIcon = new ImageIcon(new URL(MAP_URL));
-    } catch (MalformedURLException e) {
-      e.printStackTrace();
-    }
-    return mapIcon;
+    return new ImageIcon(getClass().getResource("/map.png"));
   }
 
   private void createDetectivesInfoLabels() {
