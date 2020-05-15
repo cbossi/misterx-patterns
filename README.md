@@ -2,6 +2,10 @@
 
 Im Rahmen meiner Bachelor-Vertiefung habe ich die gelernten Design Patterns am Beispiel unseres SOPRA-Projektes MisterX angewendet.
 
+## Patterns
+
+[Umgesetzte Patterns](patterns.md)
+
 ## Demo
 
 Die Demo beinhaltet folgenden kurzen Beispiel-Spieldurchlauf:
