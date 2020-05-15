@@ -23,7 +23,7 @@ public class DemoMapDataParser implements MapDataParser {
     GameItemFactory factory = GameItemFactoryImpl.getInstance();
 
     City basel = factory.createCity("Basel", new Point(3, 1));
-    City zuerich = factory.createCity("Zürich", new Point(5, 2));
+    City zuerich = factory.createCity("Zuerich", new Point(5, 2));
     City bern = factory.createCity("Bern", new Point(3, 3));
     City luzern = factory.createCity("Luzern", new Point(4, 4));
     City lausanne = factory.createCity("Lausanne", new Point(2, 5));

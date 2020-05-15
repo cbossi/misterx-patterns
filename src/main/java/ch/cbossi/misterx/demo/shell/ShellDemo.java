@@ -40,7 +40,7 @@ public class ShellDemo {
     printGameInfo();
 
     printAction("Play Round 1");
-    gameCycleSimplifier.playRound("Bern", "Zürich", "Genf");
+    gameCycleSimplifier.playRound("Bern", "Zuerich", "Genf");
     printGameInfo();
 
     printAction("Play Round 2");

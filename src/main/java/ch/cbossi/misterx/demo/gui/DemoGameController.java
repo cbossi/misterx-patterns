@@ -50,7 +50,7 @@ public class DemoGameController {
     demoCommands.add(new SetAllStartPositionsGameCommand(gameCycleSimplifier, "Luzern", "Chur", "Basel"));
 
     demoCommands.add(new MoveCharacterGameCommand(game.getMisterX(), game.getMap().getCityByName("Bern")));
-    demoCommands.add(new MoveCharacterGameCommand(game.getDetective(DetectiveType.BLUE), game.getMap().getCityByName("Zürich")));
+    demoCommands.add(new MoveCharacterGameCommand(game.getDetective(DetectiveType.BLUE), game.getMap().getCityByName("Zuerich")));
     demoCommands.add(new MoveCharacterGameCommand(game.getDetective(DetectiveType.GREEN), game.getMap().getCityByName("Genf")));
 
     demoCommands.add(new PlayRoundGameCommand(gameCycleSimplifier, "Lausanne", "Bern", "Lausanne"));
