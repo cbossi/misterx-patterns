@@ -1,0 +1,66 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" corner="BOTTOM_RIGHT" language="java" name="misterx.model" project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model" binary="false">    
+    <position height="535" width="591" x="31" y="20"/>    
+    <display autosize="false" stereotype="true"/>  
+  </package>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="misterx.model.factory.GameItemFactory" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/factory/GameItemFactory.java" binary="false">    
+    <position height="-1" width="-1" x="455" y="173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="misterx.model.factory.GameItemFactoryImpl" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/factory/GameItemFactoryImpl.java" binary="false">    
+    <position height="-1" width="-1" x="457" y="392"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.impl.CityImpl" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/impl/CityImpl.java" binary="false">    
+    <position height="-1" width="-1" x="167" y="399"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.City" 
+    project="Vertiefung-Christian_Bosshard" file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/City.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="166" y="144"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <association id="6">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="7" name="instance"/>      
+      <multiplicity id="8" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

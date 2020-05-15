@@ -1,0 +1,58 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" corner="BOTTOM_RIGHT" language="java" name="misterx.model" project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model" binary="false">    
+    <position height="397" width="554" x="31" y="20"/>    
+    <display autosize="false" stereotype="true"/>  
+  </package>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="misterx.model.observers.GameItemObservable" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/observers/GameItemObservable.java" binary="false">    
+    <position height="-1" width="-1" x="190" y="129"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="misterx.model.observers.GameItemObserver" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/observers/GameItemObserver.java" binary="false">    
+    <position height="-1" width="-1" x="458" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.GameItem" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/GameItem.java" binary="false">    
+    <position height="-1" width="-1" x="189" y="274"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.decorators.CachedCity" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/decorators/CachedCity.java" binary="false">    
+    <position height="-1" width="-1" x="463" y="315"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

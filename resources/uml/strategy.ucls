@@ -1,0 +1,97 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" corner="BOTTOM_RIGHT" language="java" name="misterx.model" project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model" binary="false">    
+    <position height="535" width="376" x="31" y="20"/>    
+    <display autosize="false" stereotype="true"/>  
+  </package>  
+  <package id="2" corner="BOTTOM_RIGHT" language="java" name="misterx.demo" project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/demo" binary="false">    
+    <position height="535" width="332" x="417" y="20"/>    
+    <display autosize="false" stereotype="true"/>  
+  </package>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="misterx.model.mapparser.MapDataParser" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/mapparser/MapDataParser.java" binary="false">    
+    <position height="-1" width="-1" x="239" y="117"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="misterx.model.mapparser.AbstractFileMapDataParser" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/mapparser/AbstractFileMapDataParser.java" binary="false">    
+    <position height="-1" width="-1" x="240" y="273"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="misterx.model.mapparser.JSONMapDataParser" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/mapparser/JSONMapDataParser.java" binary="false">    
+    <position height="-1" width="-1" x="128" y="456"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="misterx.model.mapparser.XMLMapDataParser" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/mapparser/XMLMapDataParser.java" binary="false">    
+    <position height="-1" width="-1" x="312" y="455"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.impl.MapImpl" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/impl/MapImpl.java" binary="false">    
+    <position height="-1" width="-1" x="569" y="218"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="misterx.demo.util.DemoMapDataParser" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/demo/util/DemoMapDataParser.java" binary="false">    
+    <position height="-1" width="-1" x="525" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="12">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="13" name="mapDataParser"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

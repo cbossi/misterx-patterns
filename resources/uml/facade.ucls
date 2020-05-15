@@ -1,0 +1,79 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <package id="1" corner="BOTTOM_RIGHT" language="java" name="misterx.model" project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model" binary="false">    
+    <position height="565" width="664" x="35" y="364"/>    
+    <display autosize="false" stereotype="true"/>  
+  </package>  
+  <package id="2" corner="BOTTOM_RIGHT" language="java" name="misterx.demo" project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/demo" binary="false">    
+    <position height="341" width="661" x="33" y="19"/>    
+    <display autosize="false" stereotype="true"/>  
+  </package>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="misterx.demo.util.GameCycleSimplifier" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/demo/util/GameCycleSimplifier.java" binary="false">    
+    <position height="-1" width="-1" x="395" y="210"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="misterx.model.game.Game" 
+    project="Vertiefung-Christian_Bosshard" file="/Vertiefung-Christian_Bosshard/src/misterx/model/game/Game.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="199" y="673"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.MisterX" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/MisterX.java" binary="false">    
+    <position height="-1" width="-1" x="602" y="458"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="6" corner="BOTTOM_RIGHT" language="java" name="misterx.model.gameitems.Detective" 
+    project="Vertiefung-Christian_Bosshard" 
+    file="/Vertiefung-Christian_Bosshard/src/misterx/model/gameitems/Detective.java" binary="false">    
+    <position height="-1" width="-1" x="448" y="465"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <association id="7">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="8" name="game"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="10">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="11" name="misterX"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="14" name="detectives"/>      
+      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
